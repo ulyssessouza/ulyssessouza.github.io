@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ulysses Souza — Senior Software Engineer</title>
+  <meta name="description" content="Distributed systems and containers; Go is my daily driver. Senior Software Engineer in Berlin.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ulyssessouza.github.io/">
+  <meta property="og:title" content="Ulysses Souza — Senior Software Engineer">
+  <meta property="og:description" content="Distributed systems and containers; Go is my daily driver.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e1116'/%3E%3Ctext x='12' y='45' font-family='monospace' font-size='30' font-weight='bold' fill='%237ee787'%3E%3E_%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #0e1116;
+      --text: #e6e8ee;
+      --muted: #9aa4b2;
+      --accent: #7ee787;
+      --line: #262d38;
+      --mono: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { color-scheme: dark; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    ::selection { background: var(--accent); color: var(--bg); }
+    a { color: inherit; text-decoration: none; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+    .card { max-width: 42rem; margin: 0 auto; padding: clamp(2.5rem, 8vw, 5rem) 1.5rem 4rem; }
+    h1 { font-size: clamp(2.1rem, 6vw, 3rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+    .meta { font-family: var(--mono); color: var(--muted); font-size: 0.95rem; margin-top: 0.7rem; }
+    .positioning { margin-top: 1.6rem; font-size: 1.2rem; }
+    section { margin-top: 3.5rem; }
+    .label {
+      font-family: var(--mono);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.75rem;
+      color: var(--muted);
+      padding-bottom: 0.8rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .items { margin-top: 1.4rem; display: grid; gap: 1.5rem; }
+    .item h3 { font-family: var(--mono); font-size: 1.05rem; font-weight: 600; }
+    .item h3 .arrow { color: var(--accent); font-weight: 400; }
+    .item h3 a { transition: color 0.15s ease, border-color 0.15s ease; border-bottom: 1px solid transparent; }
+    .item h3 a:hover { color: var(--accent); border-bottom-color: var(--line); }
+    .item p { color: var(--muted); font-size: 0.95rem; margin-top: 0.25rem; }
+    .focus { margin-top: 1.4rem; display: flex; flex-wrap: wrap; gap: 0.55rem; list-style: none; }
+    .focus li {
+      font-family: var(--mono);
+      font-size: 0.85rem;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      padding: 0.28rem 0.7rem;
+      border-radius: 999px;
+    }
+    .channels { margin-top: 1.4rem; display: flex; flex-wrap: wrap; gap: 1.75rem; list-style: none; }
+    .channels a {
+      font-family: var(--mono);
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 0.15rem;
+      transition: color 0.15s ease, border-color 0.15s ease;
+    }
+    .channels a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <header>
+      <h1>Ulysses Souza</h1>
+      <p class="meta">Senior Software Engineer · Berlin</p>
+      <p class="positioning">Distributed systems and containers; Go is my daily driver.</p>
+    </header>
+
+    <section aria-labelledby="proof-label">
+      <h2 class="label" id="proof-label">Proof</h2>
+      <div class="items">
+        <div class="item">
+          <h3><a href="https://github.com/docker/compose/pulls?q=is%3Apr+author%3Aulyssessouza+is%3Amerged">Docker Compose</a> <span class="arrow">↗</span></h3>
+          <p>Ex-maintainer. 179 merged pull requests.</p>
+        </div>
+        <div class="item">
+          <h3><a href="https://github.com/ulyssessouza/envlang">envlang</a> <span class="arrow">↗</span></h3>
+          <p>Go library that parses env files with full POSIX shell parameter expansion, built on ANTLR4.</p>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="focus-label">
+      <h2 class="label" id="focus-label">Focus</h2>
+      <ul class="focus">
+        <li>Go</li>
+        <li>Containers</li>
+        <li>Distributed Systems</li>
+        <li>Developer Tools</li>
+        <li>Open Source</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="channels-label">
+      <h2 class="label" id="channels-label">Channels</h2>
+      <ul class="channels">
+        <li><a href="https://github.com/ulyssessouza" rel="me">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/ulyssessouza" rel="me">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
